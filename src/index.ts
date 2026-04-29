@@ -1,9 +1,10 @@
-export type SkoolProgram = {
-  raw: string;
-};
+export * from "./types";
+
+import { SkoolProgram } from "./types";
 
 export function parseSkool(input: string): SkoolProgram {
   return {
-    raw: input,
+    labels: [],
+    lines: [],
   };
 }
