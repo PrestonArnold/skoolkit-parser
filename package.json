@@ -1,0 +1,38 @@
+{
+  "name": "@prestonarnold/skoolkit-parser",
+  "version": "0.1.0",
+  "description": "Transforms .skool files into a structured JSON model",
+  "keywords": [
+    "skoolkit",
+    "zxspectrum",
+    "z80"
+  ],
+  "homepage": "https://github.com/PrestonArnold/skoolkit-parser#readme",
+  "bugs": {
+    "url": "https://github.com/PrestonArnold/skoolkit-parser/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrestonArnold/skoolkit-parser.git"
+  },
+  "license": "MIT",
+  "author": "Preston Arnold <prestonarnold.uk>",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
